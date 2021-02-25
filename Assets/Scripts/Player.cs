@@ -5,6 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 	public static Player instance;
 	
+	[Header("Items")]
+	public GameObject currentWeapon;
+
 	[Header("Stats")]
 	public float maxHealth = 100f;
 	public float currentHealth;
